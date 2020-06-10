@@ -1,0 +1,8 @@
+package isglobal;
+global Integer count;
+
+rule "global2"
+    when
+    then
+        System.out.println("global2----》》》"+count);
+end

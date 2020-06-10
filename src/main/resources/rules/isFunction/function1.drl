@@ -1,0 +1,26 @@
+package rules.isFunction;
+
+
+rule "function1"
+    when
+    then
+
+end
+
+function void function01(){
+    System.out.println("输出一个无参数无返回值的函数");
+}
+
+function String function02(){
+    System.out.println("输出一个无参数有返回值的函数");
+    return "function02";
+}
+
+function void function03(String name){
+    System.out.println("输出一个有参数无返回值的函数"+name);
+}
+
+function String function04(String name){
+    System.out.println("输出一个有参数有返回值的函数"+name);
+    return name;
+}

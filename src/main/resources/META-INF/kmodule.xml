@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+    <kbase name="rules" packages="rules.rulesHello">
+        <ksession name="test01ssion"></ksession>
+    </kbase>
+    <kbase name="isXls" packages="rules.table">
+        <ksession name="testXls"></ksession>
+    </kbase>
+    <kbase name="isGlobal" packages="isglobal">
+        <ksession name="global1"></ksession>
+    </kbase>
+    <kbase name="isQuery" packages="rules.isQuery">
+        <ksession name="query1"></ksession>
+    </kbase>
+</kmodule>

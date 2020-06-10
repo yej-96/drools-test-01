@@ -1,0 +1,10 @@
+package rules.isQuery;
+import com.yej_group_01.helloworld.Person;
+
+query "query age is 30"
+    person:Person(age==30)
+end
+
+query "person name is 张三 and age is 30"(String $name)
+    person:Person(name==$name,age==30)
+end
